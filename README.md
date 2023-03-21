@@ -1,2 +1,3 @@
-# Network_Science
-Coursework for Network Science@IISERB-Spring'23
+ECS414: Network Science (Fall Semester-2023)
+Course Instructor: Kundan Kandhway
+Coursework: Assignment
