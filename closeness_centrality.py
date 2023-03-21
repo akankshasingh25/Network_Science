@@ -1,3 +1,5 @@
+# Write a program to compute the closeness centrality of all nodes of an undirected network
+
 import pandas as pd
 import numpy as np
 import networkx as nx
