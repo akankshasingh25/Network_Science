@@ -1,14 +1,6 @@
-"""
-We solve this problem using Depth First Search. In DFS, we visit all the connected nodes when called upon a node of a component.
-We intialise all the nodes as unvisited and a counter count as 0 which keeps track of components.
-Starting from one node we perform DFS for all nodes, 
-if we encounter an unvisited node it means it wasn't visited while performing DFS for any previous node so far.
-which means it wasn't part of any prior components otherwise it would have been marked visited.
-which also means that we have visited all connected nodes of previous component.
-We increase the counter count by 1 and mark start of a new component.
-We do this till all vertices are visited.
-The final count gives the number of components.
-"""
+# Write a program to find the number of components in an undirected network.
+
+# We solve this problem using Depth First Search.
 
 # class Graph represents an undirected graph using adjacency list representation
 class Graph:
